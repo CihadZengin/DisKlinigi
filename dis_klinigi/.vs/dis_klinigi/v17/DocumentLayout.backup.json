@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|c:\\users\\mciha\\desktop\\dis_klinigi\\dis_klinigi\\randevudetayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|solutionrelative:dis_klinigi\\randevudetayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\randevudetayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|solutionrelative:dis_klinigi\\randevudetayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\odemeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|solutionrelative:dis_klinigi\\odemeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|c:\\users\\mciha\\desktop\\dis_klinigi\\dis_klinigi\\randevu_ekran\u0131.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|solutionrelative:dis_klinigi\\randevu_ekran\u0131.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|c:\\users\\mciha\\desktop\\dis_klinigi\\dis_klinigi\\recete_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|solutionrelative:dis_klinigi\\recete_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\randevu_ekran\u0131.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|solutionrelative:dis_klinigi\\randevu_ekran\u0131.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\\u0130laclar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|solutionrelative:dis_klinigi\\\u0130laclar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\recete_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|solutionrelative:dis_klinigi\\recete_ver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\detayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|solutionrelative:dis_klinigi\\detayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_HUAWEI_SOURCE_REPOS_DIS_KLINIGI_DIS_KLINIGI_VERITABANI.MDF/True/SqlTable/dbo.Saat_tbl.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|c:\\users\\mciha\\desktop\\dis_klinigi\\dis_klinigi\\tedaviler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|solutionrelative:dis_klinigi\\tedaviler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\tedaviler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8AA3327B-D46B-44A8-96DB-6697196CD8BB}|dis_klinigi\\dis_klinigi.csproj|solutionrelative:dis_klinigi\\tedaviler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAP0UAAAAAAAAAAAIwBIVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-01T19:19:20.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RandevuDetayForm.cs",
+              "DocumentMoniker": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\RandevuDetayForm.cs",
+              "RelativeDocumentMoniker": "dis_klinigi\\RandevuDetayForm.cs",
+              "ToolTip": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\RandevuDetayForm.cs",
+              "RelativeToolTip": "dis_klinigi\\RandevuDetayForm.cs",
+              "ViewState": "AgIAAI8BAAAAAAAAAAAQwOkBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:04:22.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Randevu_Ekran\u0131.cs",
+              "DocumentMoniker": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\Randevu_Ekran\u0131.cs",
+              "RelativeDocumentMoniker": "dis_klinigi\\Randevu_Ekran\u0131.cs",
+              "ToolTip": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\Randevu_Ekran\u0131.cs",
+              "RelativeToolTip": "dis_klinigi\\Randevu_Ekran\u0131.cs",
+              "ViewState": "AgIAAEoCAAAAAAAAAAAkwHsCAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:27:30.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dbo.Saat_tbl.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_HUAWEI_SOURCE_REPOS_DIS_KLINIGI_DIS_KLINIGI_VERITABANI.MDF/True/SqlTable/dbo.Saat_tbl.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_HUAWEI_SOURCE_REPOS_DIS_KLINIGI_DIS_KLINIGI_VERITABANI.MDF/True/SqlTable/dbo.Saat_tbl.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-01T14:36:42.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Tedaviler.cs",
+              "DocumentMoniker": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\Tedaviler.cs",
+              "RelativeDocumentMoniker": "dis_klinigi\\Tedaviler.cs",
+              "ToolTip": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\Tedaviler.cs",
+              "RelativeToolTip": "dis_klinigi\\Tedaviler.cs",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAkwAIBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:22:58.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "recete_ver.cs",
+              "DocumentMoniker": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\recete_ver.cs",
+              "RelativeDocumentMoniker": "dis_klinigi\\recete_ver.cs",
+              "ToolTip": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\recete_ver.cs",
+              "RelativeToolTip": "dis_klinigi\\recete_ver.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:22:40.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OdemeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\OdemeForm.cs",
+              "RelativeDocumentMoniker": "dis_klinigi\\OdemeForm.cs",
+              "ToolTip": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\OdemeForm.cs [Design]",
+              "RelativeToolTip": "dis_klinigi\\OdemeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:04:14.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RandevuDetayForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\RandevuDetayForm.cs",
+              "RelativeDocumentMoniker": "dis_klinigi\\RandevuDetayForm.cs",
+              "ToolTip": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\RandevuDetayForm.cs [Design]",
+              "RelativeToolTip": "dis_klinigi\\RandevuDetayForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:04:02.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Randevu_Ekran\u0131.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\Randevu_Ekran\u0131.cs",
+              "RelativeDocumentMoniker": "dis_klinigi\\Randevu_Ekran\u0131.cs",
+              "ToolTip": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\Randevu_Ekran\u0131.cs [Design]",
+              "RelativeToolTip": "dis_klinigi\\Randevu_Ekran\u0131.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:27:28.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "\u0130laclar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\\u0130laclar.cs",
+              "RelativeDocumentMoniker": "dis_klinigi\\\u0130laclar.cs",
+              "ToolTip": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\\u0130laclar.cs [Design]",
+              "RelativeToolTip": "dis_klinigi\\\u0130laclar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:44:05.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Tedaviler.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\Tedaviler.cs",
+              "RelativeDocumentMoniker": "dis_klinigi\\Tedaviler.cs",
+              "ToolTip": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\Tedaviler.cs [Design]",
+              "RelativeToolTip": "dis_klinigi\\Tedaviler.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:22:56.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "recete_ver.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\recete_ver.cs",
+              "RelativeDocumentMoniker": "dis_klinigi\\recete_ver.cs",
+              "ToolTip": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\recete_ver.cs [Design]",
+              "RelativeToolTip": "dis_klinigi\\recete_ver.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:22:37.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "detayform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\detayform.cs",
+              "RelativeDocumentMoniker": "dis_klinigi\\detayform.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\source\\repos\\dis_klinigi\\dis_klinigi\\detayform.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\HUAWEI\\source\\repos\\dis_klinigi\\dis_klinigi\\detayform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:22:29.399Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
