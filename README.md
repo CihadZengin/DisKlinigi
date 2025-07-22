@@ -50,8 +50,14 @@ Uygulama geliştirilmeye açık ve sürdürülebilir bir projedir.
 Kullanıcı deneyiminizden doğacak her geri bildirim, hem proje hem de kişisel gelişimime katkı sağlayacaktır.
 
 ------------------------------------------------------------
+## 🔒 Lisanslama
+
+Bu proje ticari lisans ile korunmaktadır.  
+Detaylar için [LICENSE.md](LICENSE.md) dosyasına göz atabilirsiniz.
+
+📬 Lisans satın almak veya özel entegrasyon talep etmek için:  
+**mcihadz@gmail.com**
 
 İletişim
 ========
-
 E-posta: mcihadz@gmail.com
