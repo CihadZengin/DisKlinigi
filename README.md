@@ -6,14 +6,14 @@ Kaynak kodları dilediğiniz gibi inceleyebilirsiniz; ancak lütfen kodları de�
 
 ------------------------------------------------------------
 
-Uygulama Bilgileri
+🦷Uygulama Bilgileri
 ==================
 
-Giriş Bilgileri:
+🖥️Giriş Bilgileri:
 - Kullanıcı Adı: admin
 - Şifre: admin
 
-Kullanım Talimatları:
+🚀Kullanım Talimatları:
 ---------------------
 - Reçete yazmadan önce ilaç bilgilerini giriniz. (Fiyatlandırma yapılmamaktadır, yalnızca öneri amaçlıdır.)
 - Doktor ve tedavi bilgileri eksiksiz ve doğru şekilde girilmelidir.
@@ -25,7 +25,7 @@ Kullanım Talimatları:
 - Verilen randevular ana sayfada listelenir.
 - Hastaya çift tıklayarak detaylarına ulaşabilirsiniz.
 
-Hesaplama ve Borçlandırma:
+🗓️Hesaplama ve Borçlandırma:
 --------------------------
 - Hasta randevuya geldiğinde "Hesapla" butonuyla borçlandırılır.
 - Birden fazla randevusu varsa her biri ayrı ayrı işlenir.
@@ -35,14 +35,14 @@ Hesaplama ve Borçlandırma:
 - Toplam Tutar: 1000 TL
 - Ödeme: 500 TL + 500 TL şeklinde olabilir.
 
-Ödeme Geçmişi:
+💳Ödeme Geçmişi:
 --------------
 - Ödeme tutarı, kalan borç ve tarih bilgisiyle birlikte kayıt edilir.
 - Tüm geçmiş istenildiğinde çıktı olarak alınabilir.
 
 ------------------------------------------------------------
 
-Geri Bildirim
+📊Geri Bildirim
 =============
 
 Uygulama geliştirilmeye açık ve sürdürülebilir bir projedir.  
@@ -60,4 +60,4 @@ Detaylar için [LICENSE.md](LICENSE.md) dosyasına göz atabilirsiniz.
 
 İletişim
 ========
-E-posta: mcihadz@gmail.com
+✉️E-posta: mcihadz@gmail.com
