@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dis_klinigi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5083d6409f6469832a48ea23737338182682b310")]
 [assembly: System.Reflection.AssemblyProductAttribute("dis_klinigi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dis_klinigi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

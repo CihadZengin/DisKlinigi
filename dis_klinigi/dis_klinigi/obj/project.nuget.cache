@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SgwTWgqsAd0=",
+  "dgSpecHash": "3kqovzQI4Fk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\dis_klinigi.csproj",
+  "projectFilePath": "C:\\Users\\mciha\\Documents\\GitHub\\DisKlinigi\\dis_klinigi\\dis_klinigi\\dis_klinigi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mciha\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mciha\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -52,12 +52,12 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'iTextSharp 5.5.13.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\dis_klinigi.csproj",
+      "projectPath": "C:\\Users\\mciha\\Documents\\GitHub\\DisKlinigi\\dis_klinigi\\dis_klinigi\\dis_klinigi.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\dis_klinigi.csproj",
+      "filePath": "C:\\Users\\mciha\\Documents\\GitHub\\DisKlinigi\\dis_klinigi\\dis_klinigi\\dis_klinigi.csproj",
       "libraryId": "iTextSharp",
       "targetGraphs": [
-        "net8.0-windows7.0"
+        "net8.0-windows"
       ]
     }
   ]

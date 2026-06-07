@@ -27,7 +27,7 @@ namespace dis_klinigi
                 try
                 {
                     DataTable dt = new DataTable();
-                    using (SqlCommand cmd = new SqlCommand("select HastaTCNumarasi,HastaAdi,HastaSoyadi,HastaTelefonNumarasi,HastaCinsiyeti,TedaviAdi,TedaviFiyati,Saatler,Tarih from Randevu_tbl\r\ninner join Hastalar_tbl on HastaID=RandevuHID\r\ninner join Tedavi_tbl on TedavilerID=RandevuTeID\r\ninner Join Saat_tbl on SaatID = RandevuSID\r\ninner join Tarih_tbl on TarihID=RandevuTaID\r\n order by Tarih,Saatler", con))
+                    using (SqlCommand cmd = new SqlCommand("select HastaTCNumarasi,HastaAdi,HastaSoyadi,HastaTelefonNumarasi,HastaCinsiyeti,TedaviAdi,TedaviFiyati,Saatler,Tarih from Randevu_tbl\r\ninner join Hastalar_tbl on HastaID=RandevuHID\r\ninner join Tedavi_tbl on TedavilerID=RandevuTeID\r\ninner Join Saat_tbl on SaatID = RandevuSID\r\ninner join Tarih_tbl on TarihID=RandevuTaID\r\n order by Tarih DESC,Saatler DESC", con))
                     {
                         using (SqlDataAdapter adapt = new SqlDataAdapter(cmd))
                         {
@@ -66,16 +66,19 @@ namespace dis_klinigi
 
             dataGridView1.EnableHeadersVisualStyles = false;
             DataGridViewCellStyle columnHeaderStyle = new DataGridViewCellStyle();
-            columnHeaderStyle.BackColor = Color.FromArgb(70, 70, 70);     
-            columnHeaderStyle.ForeColor = Color.White;                  
-            columnHeaderStyle.Font = new Font("Segoe UI Semibold", 9.5F, FontStyle.Bold); 
-            columnHeaderStyle.Alignment = DataGridViewContentAlignment.TopLeft; 
-            columnHeaderStyle.Padding = new Padding(5, 5, 5, 5); 
+            columnHeaderStyle.BackColor = Color.FromArgb(70, 70, 70);
+            columnHeaderStyle.ForeColor = Color.White;
+            columnHeaderStyle.Font = new Font("Segoe UI Semibold", 9.5F, FontStyle.Bold);
+            columnHeaderStyle.Alignment = DataGridViewContentAlignment.TopLeft;
+            columnHeaderStyle.Padding = new Padding(5, 5, 5, 5);
             dataGridView1.ColumnHeadersDefaultCellStyle = columnHeaderStyle;
             dataGridView1.ColumnHeadersHeight = 30;
 
-            dataGridView1.BorderStyle = BorderStyle.None; 
+            dataGridView1.BorderStyle = BorderStyle.None;
             dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+
+            dataGridView1.CellFormatting -= dataGridView1_CellFormatting;
+            dataGridView1.CellFormatting += dataGridView1_CellFormatting;
         }
 
         private void btnkapat_Click(object sender, EventArgs e)
@@ -108,7 +111,7 @@ namespace dis_klinigi
                     string ara = txtara.Text.Trim();
                     DataTable dtara = new DataTable();
 
-                    string query = "select HastaTCNumarasi, HastaAdi, HastaSoyadi, HastaTelefonNumarasi, HastaCinsiyeti, TedaviAdi, TedaviFiyati, Saatler, Tarih from Randevu_tbl\r\ninner join Hastalar_tbl on HastaID = RandevuHID\r\ninner join Tedavi_tbl on TedavilerID = RandevuTeID\r\ninner Join Saat_tbl on SaatID = RandevuSID\r\ninner join Tarih_tbl on TarihID = RandevuTaID\r\n  where HastaTCNumarasi like '%" + ara + "%' or HastaAdi like '%" + ara + "%' or HastaSoyadi like '%" + ara + "%'\r\n or HastaTelefonNumarasi like '%" + ara + "%'\r\n order by Tarih, Saatler";
+                    string query = "select HastaTCNumarasi, HastaAdi, HastaSoyadi, HastaTelefonNumarasi, HastaCinsiyeti, TedaviAdi, TedaviFiyati, Saatler, Tarih from Randevu_tbl\r\ninner join Hastalar_tbl on HastaID = RandevuHID\r\ninner join Tedavi_tbl on TedavilerID = RandevuTeID\r\ninner Join Saat_tbl on SaatID = RandevuSID\r\ninner join Tarih_tbl on TarihID = RandevuTaID\r\n  where HastaTCNumarasi like '%" + ara + "%' or HastaAdi like '%" + ara + "%' or HastaSoyadi like '%" + ara + "%'\r\n or HastaTelefonNumarasi like '%" + ara + "%'\r\n order by Tarih DESC, Saatler";
 
                     using (SqlDataAdapter adptara = new SqlDataAdapter(query, con))
                     {
@@ -199,9 +202,9 @@ namespace dis_klinigi
 
         private void dataGridView1_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-            if (e.RowIndex >= 0) 
+            if (e.RowIndex >= 0)
             {
-                string hastaTC = dataGridView1.Rows[e.RowIndex].Cells["HastaTCNumarasi"].Value.ToString(); 
+                string hastaTC = dataGridView1.Rows[e.RowIndex].Cells["HastaTCNumarasi"].Value.ToString();
                 RandevuDetayForm randevuForm = new RandevuDetayForm(hastaTC);
                 this.Close();
                 randevuForm.Show();
@@ -212,6 +215,119 @@ namespace dis_klinigi
         private void button1_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void dataGridView1_RowPrePaint(object sender, DataGridViewRowPrePaintEventArgs e)
+        {
+            if (this.IsDisposed || !this.Visible || dataGridView1 == null || dataGridView1.IsDisposed)
+                return;
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+
+                // "Tarih" sütunu SQL sorgunda 8. sırada (0'dan sayarsak)
+                // İsim yerine direkt 8. hücre boş mu diye bakıyoruz, asla şaşmaz!
+                if (row.Cells[8].Value != null && row.Cells[8].Value != DBNull.Value)
+                {
+                    try
+                    {
+                        // Hücredeki tarihi al ve saatini sıfırla
+                        DateTime randevuTarihi = Convert.ToDateTime(row.Cells[8].Value).Date;
+
+                        DateTime bugun = DateTime.Today;
+                        DateTime yarin = bugun.AddDays(1); // Tam 1 gün sonrası
+
+                        // Satırın varsayılan rengini her seferinde temizle ki düzgün boyasın
+                        row.DefaultCellStyle.BackColor = Color.Empty;
+                        row.DefaultCellStyle.ForeColor = Color.Empty;
+
+                        // 1. KURAL: Günü gelenler (BUGÜN) -> KIRMIZI
+                        if (randevuTarihi == bugun)
+                        {
+                            row.DefaultCellStyle.BackColor = Color.FromArgb(255, 204, 204);
+                            row.DefaultCellStyle.ForeColor = Color.DarkRed;
+                        }
+                        // 2. KURAL: Sadece 1 gün kalanlar (YARIN) -> SARI
+                        // (2, 3, 4 gün sonrasını boyamaz, normal bırakır)
+                        else if (randevuTarihi == yarin)
+                        {
+                            row.DefaultCellStyle.BackColor = Color.FromArgb(255, 255, 204);
+                            row.DefaultCellStyle.ForeColor = Color.FromArgb(100, 80, 0);
+                        }
+                        // 3. KURAL: Günü geçenler (DÜN ve ÖNCEKİ GEÇMİŞ GÜNLER) -> YEŞİL
+                        else if (randevuTarihi < bugun)
+                        {
+                            row.DefaultCellStyle.BackColor = Color.FromArgb(204, 255, 204);
+                            row.DefaultCellStyle.ForeColor = Color.DarkGreen;
+                        }
+                    }
+                    catch
+                    {
+                        // Format kayması olursa program kilitlenmesin
+                    }
+                }
+            }
+        }
+
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            dataGridView1.RowPrePaint -= dataGridView1_RowPrePaint;
+        }
+
+        private void dataGridView1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            // KORUMA: Form veya Grid hafızadan siliniyorsa işlem yapma, çökmeyi engeller
+            if (this.IsDisposed || dataGridView1 == null || dataGridView1.IsDisposed) return;
+
+            // Sadece geçerli satırlar için çalış
+            if (e.RowIndex >= 0 && e.RowIndex < dataGridView1.Rows.Count)
+            {
+                DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+
+                // Sadece "Tarih" sütunu çizilirken tüm satırın rengine karar veriyoruz (8. kolon)
+                if (dataGridView1.Columns[e.ColumnIndex].Name == "Tarih" || e.ColumnIndex == 8)
+                {
+                    if (e.Value != null && e.Value != DBNull.Value)
+                    {
+                        try
+                        {
+                            DateTime randevuTarihi = Convert.ToDateTime(e.Value).Date;
+                            DateTime bugun = DateTime.Today;
+                            DateTime yarin = bugun.AddDays(1);
+
+                            // 1. KURAL: BUGÜN -> KIRMIZI
+                            if (randevuTarihi == bugun)
+                            {
+
+                                row.DefaultCellStyle.BackColor = Color.FromArgb(204, 255, 204);
+                                row.DefaultCellStyle.ForeColor = Color.DarkGreen;
+                            }
+                            // 2. KURAL: YARIN -> SARI
+                            else if (randevuTarihi == yarin)
+                            {
+                                row.DefaultCellStyle.BackColor = Color.FromArgb(255, 255, 204);
+                                row.DefaultCellStyle.ForeColor = Color.FromArgb(100, 80, 0);
+                            }
+                            // 3. KURAL: GEÇMİŞ -> YEŞİL
+                            else if (randevuTarihi < bugun)
+                            {
+                                row.DefaultCellStyle.BackColor = Color.FromArgb(255, 204, 204);
+                                row.DefaultCellStyle.ForeColor = Color.DarkRed;
+                            }
+                            else
+                            {
+                                // Gelecek tarihler için varsayılan rengi koru
+                                row.DefaultCellStyle.BackColor = dataGridView1.DefaultCellStyle.BackColor;
+                                row.DefaultCellStyle.ForeColor = dataGridView1.DefaultCellStyle.ForeColor;
+                            }
+                        }
+                        catch
+                        {
+                            // Dönüşüm hatası olursa uygulamayı asla çökertme
+                        }
+                    }
+                }
+            }
         }
     }
 }

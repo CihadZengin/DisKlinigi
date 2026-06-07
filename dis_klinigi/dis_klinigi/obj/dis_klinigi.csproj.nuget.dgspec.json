@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\dis_klinigi.csproj": {}
+    "C:\\Users\\mciha\\Documents\\GitHub\\DisKlinigi\\dis_klinigi\\dis_klinigi\\dis_klinigi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\dis_klinigi.csproj": {
+    "C:\\Users\\mciha\\Documents\\GitHub\\DisKlinigi\\dis_klinigi\\dis_klinigi\\dis_klinigi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\dis_klinigi.csproj",
+        "projectUniqueName": "C:\\Users\\mciha\\Documents\\GitHub\\DisKlinigi\\dis_klinigi\\dis_klinigi\\dis_klinigi.csproj",
         "projectName": "dis_klinigi",
-        "projectPath": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\dis_klinigi.csproj",
+        "projectPath": "C:\\Users\\mciha\\Documents\\GitHub\\DisKlinigi\\dis_klinigi\\dis_klinigi\\dis_klinigi.csproj",
         "packagesPath": "C:\\Users\\mciha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mciha\\Desktop\\dis_klinigi\\dis_klinigi\\obj\\",
+        "outputPath": "C:\\Users\\mciha\\Documents\\GitHub\\DisKlinigi\\dis_klinigi\\dis_klinigi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -29,7 +29,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows7.0": {
+          "net8.0-windows": {
+            "framework": "net8.0-windows7.0",
             "targetAlias": "net8.0-windows",
             "projectReferences": {}
           }
@@ -44,10 +45,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
-        "net8.0-windows7.0": {
+        "net8.0-windows": {
+          "framework": "net8.0-windows7.0",
           "targetAlias": "net8.0-windows",
           "dependencies": {
             "Microsoft.Data.SqlClient": {
@@ -82,7 +84,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

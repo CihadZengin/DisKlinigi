@@ -64,9 +64,11 @@
             groupBox1.Dock = DockStyle.Bottom;
             groupBox1.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             groupBox1.ForeColor = Color.White;
-            groupBox1.Location = new Point(0, 340);
+            groupBox1.Location = new Point(0, 255);
+            groupBox1.Margin = new Padding(3, 2, 3, 2);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1629, 480);
+            groupBox1.Padding = new Padding(3, 2, 3, 2);
+            groupBox1.Size = new Size(1425, 360);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Randevu Listesi";
@@ -93,7 +95,8 @@
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
             dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             dataGridView1.Dock = DockStyle.Right;
-            dataGridView1.Location = new Point(6, 28);
+            dataGridView1.Location = new Point(4, 22);
+            dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
@@ -105,8 +108,9 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
             dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(1620, 449);
+            dataGridView1.Size = new Size(1418, 336);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellFormatting += dataGridView1_CellFormatting;
             dataGridView1.RowHeaderMouseDoubleClick += dataGridView1_RowHeaderMouseDoubleClick;
             // 
             // btnrandevu
@@ -117,9 +121,10 @@
             btnrandevu.FlatAppearance.BorderSize = 0;
             btnrandevu.FlatStyle = FlatStyle.Flat;
             btnrandevu.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            btnrandevu.Location = new Point(23, 76);
+            btnrandevu.Location = new Point(20, 57);
+            btnrandevu.Margin = new Padding(3, 2, 3, 2);
             btnrandevu.Name = "btnrandevu";
-            btnrandevu.Size = new Size(204, 107);
+            btnrandevu.Size = new Size(178, 80);
             btnrandevu.TabIndex = 1;
             btnrandevu.UseVisualStyleBackColor = false;
             btnrandevu.Click += btnrandevu_Click;
@@ -132,9 +137,10 @@
             btntedaviler.FlatAppearance.BorderSize = 0;
             btntedaviler.FlatStyle = FlatStyle.Flat;
             btntedaviler.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            btntedaviler.Location = new Point(849, 76);
+            btntedaviler.Location = new Point(743, 57);
+            btntedaviler.Margin = new Padding(3, 2, 3, 2);
             btntedaviler.Name = "btntedaviler";
-            btntedaviler.Size = new Size(204, 111);
+            btntedaviler.Size = new Size(178, 83);
             btntedaviler.TabIndex = 2;
             btntedaviler.UseVisualStyleBackColor = false;
             btntedaviler.Click += btntedaviler_Click;
@@ -149,9 +155,10 @@
             btnhasta.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             btnhasta.ForeColor = Color.PaleGreen;
             btnhasta.ImageAlign = ContentAlignment.TopCenter;
-            btnhasta.Location = new Point(568, 76);
+            btnhasta.Location = new Point(497, 57);
+            btnhasta.Margin = new Padding(3, 2, 3, 2);
             btnhasta.Name = "btnhasta";
-            btnhasta.Size = new Size(204, 115);
+            btnhasta.Size = new Size(178, 86);
             btnhasta.TabIndex = 3;
             btnhasta.UseVisualStyleBackColor = false;
             btnhasta.Click += btnhasta_Click;
@@ -164,9 +171,10 @@
             btnrecete.FlatAppearance.BorderSize = 0;
             btnrecete.FlatStyle = FlatStyle.Flat;
             btnrecete.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            btnrecete.Location = new Point(1413, 72);
+            btnrecete.Location = new Point(1236, 54);
+            btnrecete.Margin = new Padding(3, 2, 3, 2);
             btnrecete.Name = "btnrecete";
-            btnrecete.Size = new Size(204, 111);
+            btnrecete.Size = new Size(178, 83);
             btnrecete.TabIndex = 4;
             btnrecete.UseVisualStyleBackColor = false;
             btnrecete.Click += btnrecete_Click;
@@ -179,9 +187,10 @@
             btndoktor.FlatAppearance.BorderSize = 0;
             btndoktor.FlatStyle = FlatStyle.Flat;
             btndoktor.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            btndoktor.Location = new Point(1144, 68);
+            btndoktor.Location = new Point(1001, 51);
+            btndoktor.Margin = new Padding(3, 2, 3, 2);
             btndoktor.Name = "btndoktor";
-            btndoktor.Size = new Size(204, 115);
+            btndoktor.Size = new Size(178, 86);
             btndoktor.TabIndex = 5;
             btndoktor.UseVisualStyleBackColor = false;
             btndoktor.Click += btndoktor_Click;
@@ -195,9 +204,10 @@
             btngeri.FlatStyle = FlatStyle.Flat;
             btngeri.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             btngeri.ForeColor = Color.White;
-            btngeri.Location = new Point(1466, 7);
+            btngeri.Location = new Point(1283, 5);
+            btngeri.Margin = new Padding(3, 2, 3, 2);
             btngeri.Name = "btngeri";
-            btngeri.Size = new Size(38, 38);
+            btngeri.Size = new Size(33, 28);
             btngeri.TabIndex = 11;
             btngeri.UseVisualStyleBackColor = false;
             btngeri.Click += btngeri_Click;
@@ -210,9 +220,10 @@
             btnkapat.FlatAppearance.BorderSize = 0;
             btnkapat.FlatStyle = FlatStyle.Flat;
             btnkapat.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            btnkapat.Location = new Point(1579, 7);
+            btnkapat.Location = new Point(1382, 5);
+            btnkapat.Margin = new Padding(3, 2, 3, 2);
             btnkapat.Name = "btnkapat";
-            btnkapat.Size = new Size(38, 38);
+            btnkapat.Size = new Size(33, 28);
             btnkapat.TabIndex = 10;
             btnkapat.UseVisualStyleBackColor = false;
             btnkapat.Click += btnkapat_Click;
@@ -223,9 +234,10 @@
             txtara.BorderStyle = BorderStyle.FixedSingle;
             txtara.Font = new Font("Segoe UI", 11F);
             txtara.ForeColor = Color.White;
-            txtara.Location = new Point(597, 304);
+            txtara.Location = new Point(522, 228);
+            txtara.Margin = new Padding(3, 2, 3, 2);
             txtara.Name = "txtara";
-            txtara.Size = new Size(435, 32);
+            txtara.Size = new Size(381, 27);
             txtara.TabIndex = 13;
             txtara.TextChanged += txtara_TextChanged;
             // 
@@ -234,9 +246,9 @@
             lblmesaj.AutoSize = true;
             lblmesaj.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             lblmesaj.ForeColor = Color.White;
-            lblmesaj.Location = new Point(734, 257);
+            lblmesaj.Location = new Point(642, 193);
             lblmesaj.Name = "lblmesaj";
-            lblmesaj.Size = new Size(161, 32);
+            lblmesaj.Size = new Size(126, 25);
             lblmesaj.TabIndex = 12;
             lblmesaj.Text = "Randevu Ara";
             // 
@@ -245,9 +257,9 @@
             lblhastakyt.AutoSize = true;
             lblhastakyt.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             lblhastakyt.ForeColor = Color.White;
-            lblhastakyt.Location = new Point(597, 190);
+            lblhastakyt.Location = new Point(522, 142);
             lblhastakyt.Name = "lblhastakyt";
-            lblhastakyt.Size = new Size(143, 32);
+            lblhastakyt.Size = new Size(111, 25);
             lblhastakyt.TabIndex = 14;
             lblhastakyt.Text = "Hasta Kayıt";
             // 
@@ -257,9 +269,9 @@
             lblrandevu.BackColor = Color.Navy;
             lblrandevu.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             lblrandevu.ForeColor = Color.White;
-            lblrandevu.Location = new Point(46, 186);
+            lblrandevu.Location = new Point(40, 140);
             lblrandevu.Name = "lblrandevu";
-            lblrandevu.Size = new Size(158, 32);
+            lblrandevu.Size = new Size(125, 25);
             lblrandevu.TabIndex = 15;
             lblrandevu.Text = "Randevu Ver";
             // 
@@ -268,9 +280,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(868, 190);
+            label1.Location = new Point(760, 142);
             label1.Name = "label1";
-            label1.Size = new Size(164, 32);
+            label1.Size = new Size(126, 25);
             label1.TabIndex = 16;
             label1.Text = "Tedavi Listesi";
             // 
@@ -279,9 +291,9 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(1189, 190);
+            label2.Location = new Point(1040, 142);
             label2.Name = "label2";
-            label2.Size = new Size(124, 32);
+            label2.Size = new Size(99, 25);
             label2.TabIndex = 17;
             label2.Text = "Doktorlar";
             // 
@@ -290,18 +302,19 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(1477, 190);
+            label3.Location = new Point(1292, 142);
             label3.Name = "label3";
-            label3.Size = new Size(84, 32);
+            label3.Size = new Size(65, 25);
             label3.TabIndex = 18;
             label3.Text = "İlaçlar";
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(0, -4);
+            pictureBox1.Location = new Point(0, -3);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(66, 57);
+            pictureBox1.Size = new Size(58, 43);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 19;
             pictureBox1.TabStop = false;
@@ -311,9 +324,9 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(72, 18);
+            label4.Location = new Point(63, 14);
             label4.Name = "label4";
-            label4.Size = new Size(79, 20);
+            label4.Size = new Size(61, 15);
             label4.TabIndex = 20;
             label4.Text = "Ana Sayfa";
             // 
@@ -322,9 +335,9 @@
             lblrecete.AutoSize = true;
             lblrecete.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             lblrecete.ForeColor = Color.White;
-            lblrecete.Location = new Point(333, 190);
+            lblrecete.Location = new Point(291, 142);
             lblrecete.Name = "lblrecete";
-            lblrecete.Size = new Size(132, 32);
+            lblrecete.Size = new Size(103, 25);
             lblrecete.TabIndex = 22;
             lblrecete.Text = "Reçete ver";
             // 
@@ -336,9 +349,10 @@
             btnilac.FlatAppearance.BorderSize = 0;
             btnilac.FlatStyle = FlatStyle.Flat;
             btnilac.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            btnilac.Location = new Point(297, 76);
+            btnilac.Location = new Point(260, 57);
+            btnilac.Margin = new Padding(3, 2, 3, 2);
             btnilac.Name = "btnilac";
-            btnilac.Size = new Size(204, 111);
+            btnilac.Size = new Size(178, 83);
             btnilac.TabIndex = 21;
             btnilac.UseVisualStyleBackColor = false;
             btnilac.Click += btnilac_Click;
@@ -351,19 +365,20 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("MV Boli", 10F, FontStyle.Bold);
-            button1.Location = new Point(1523, 8);
+            button1.Location = new Point(1333, 6);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(38, 38);
+            button1.Size = new Size(33, 28);
             button1.TabIndex = 23;
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Navy;
-            ClientSize = new Size(1629, 820);
+            ClientSize = new Size(1425, 615);
             Controls.Add(button1);
             Controls.Add(lblrecete);
             Controls.Add(btnilac);
@@ -386,9 +401,11 @@
             Controls.Add(groupBox1);
             Font = new Font("Segoe UI", 9F);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form2";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Randevular";
+            FormClosing += Form2_FormClosing;
             Load += Form2_Load;
             groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
